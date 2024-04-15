@@ -1,0 +1,22 @@
+{
+  "name": "taskweave",
+  "version": "1.0.0",
+  "description": "This is a simple to do list, made with typescipt, node and inquirer.",
+  "main": "index.js",
+  "type": "module",
+  "bin" : "index.js",
+  "publishConfig" : {
+    "access" : "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Shayan Imran",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.18"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
